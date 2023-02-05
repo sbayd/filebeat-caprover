@@ -12,8 +12,6 @@ filebeat.autodiscover:
               docker.container.image: nginx
       hints.enabled: true
   
-processors:
-  - add_docker_metadata: ~
 
 setup.kibana.host: ${KIBANA_HOST}
 
