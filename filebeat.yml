@@ -11,10 +11,6 @@ filebeat.autodiscover:
             contains:
               docker.container.image: nginx
       hints.enabled: true
-      hints.default_config:
-      type: container
-      paths:
-        - /var/lib/docker/containers/${data.container.id}/*.log
   
 processors:
   - add_docker_metadata: ~
