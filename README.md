@@ -46,8 +46,6 @@ var preDeployFunction = function (captainAppObj, dockerUpdateObject) {
 15) use caprover deploy command
 16) It is ready! Go to your kibana public url and observe the logs!
 
-
-
-
+17) Optional: close kibana/elastic nginx logs by adding acces_logs: off to nginx config of the kibana/elastic apps
 
 
